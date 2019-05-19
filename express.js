@@ -15,6 +15,8 @@ app.use(bodyParser.json())
 
 // создание функции слушателя для GET-запросов по адресу "/"
 app.get('/', function (req, res) {
+  console.log(req.query);
+  console.log(req.params);
   res.send('Hello World')
 })
 
