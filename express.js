@@ -22,6 +22,7 @@ app.get('/', function (req, res) {
 
 // создание функции слушателя для POST-запросов по адресу "/test"
 app.post('/test', function (req, res) {
+  console.log(req.body);
   res.send('Hello World POST')
 })
 
