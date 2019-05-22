@@ -34,7 +34,7 @@ Here are a few branches for blocks and you can switch between to take a look on 
 - **POST**: _/user_  
   створення користувача за даними з тіла запиту
 
-- **PUT**: _/user:id_  
+- **PUT**: _/user/:id_  
   оновлення користувача за даними з тіла запиту
 
 - **DELETE**: _/user/:id_  
