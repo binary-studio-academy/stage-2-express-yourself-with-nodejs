@@ -68,7 +68,7 @@ Here are a few branches for blocks and you can switch between to take a look on 
 - **POST**: _/user_  
   создание пользователя по данным передаваемым в теле запроса
 
-- **PUT**: _/user:id_  
+- **PUT**: _/user/:id_  
   обновление пользователя по данным передаваемым в теле запроса
 
 - **DELETE**: _/user/:id_  
@@ -104,7 +104,7 @@ Write a web server using **Node.js** + **Express.js** that can handle the list o
 - **POST**: _/user_  
   create user according to the data from the request body
 
-- **PUT**: _/user:id_  
+- **PUT**: _/user/:id_  
   update user according to the data from the request body
 
 - **DELETE**: _/user/:id_  
